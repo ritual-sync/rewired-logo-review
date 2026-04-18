@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rewired logo · v1 review · 3 concepts × 3 variants</title>
+<style>
+  :root {
+    --void-purple: #1a0f2e;
+    --deep-indigo: #0a0f3c;
+    --fusion-gold: #ffb347;
+    --ignition-orange: #ff7a18;
+    --solar-white: #fff4e6;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--void-purple);
+    color: var(--solar-white);
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.55;
+  }
+  header {
+    padding: 48px 48px 32px;
+    border-bottom: 1px solid rgba(255, 179, 71, 0.18);
+  }
+  .publication-label {
+    font-family: 'SF Mono', Menlo, monospace;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ignition-orange);
+    margin: 0 0 10px;
+  }
+  h1 {
+    margin: 0 0 6px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Cinzel', Georgia, serif;
+    color: var(--fusion-gold);
+    letter-spacing: 0.02em;
+  }
+  .subtitle {
+    font-size: 15px;
+    opacity: 0.75;
+    max-width: 720px;
+  }
+  main { padding: 32px 48px 64px; }
+  .concept {
+    margin-bottom: 64px;
+  }
+  .concept-heading {
+    font-family: 'Cinzel', Georgia, serif;
+    color: var(--fusion-gold);
+    font-size: 22px;
+    margin: 0 0 6px;
+    letter-spacing: 0.015em;
+  }
+  .concept-subheading {
+    font-size: 14px;
+    opacity: 0.7;
+    margin: 0 0 20px;
+    max-width: 900px;
+  }
+  .variant-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 980px) {
+    .variant-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .variant-grid { grid-template-columns: 1fr; }
+    main, header { padding-left: 24px; padding-right: 24px; }
+  }
+  .variant {
+    background: var(--deep-indigo);
+    border: 1px solid rgba(255, 179, 71, 0.12);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .variant img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    background: var(--void-purple);
+  }
+  .variant-label {
+    padding: 10px 14px;
+    font-family: 'SF Mono', Menlo, monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--fusion-gold);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .variant-label .filename { opacity: 0.7; color: var(--solar-white); }
+  .scale-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 14px 12px;
+    border-top: 1px solid rgba(255, 179, 71, 0.08);
+  }
+  .scale-box {
+    background: var(--void-purple);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .scale-box img {
+    object-fit: contain;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+  }
+  .scale-16 { width: 16px; height: 16px; }
+  .scale-32 { width: 32px; height: 32px; }
+  .scale-64 { width: 64px; height: 64px; }
+  .scale-label {
+    font-family: 'SF Mono', Menlo, monospace;
+    font-size: 10px;
+    opacity: 0.5;
+    letter-spacing: 0.05em;
+  }
+  footer {
+    padding: 32px 48px;
+    border-top: 1px solid rgba(255, 179, 71, 0.12);
+    opacity: 0.55;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <p class="publication-label">Rewired · logo v1 · round 1 review</p>
+  <h1>Three concepts, three variants each</h1>
+  <p class="subtitle">Review grid for the first generation pass. Each row is one concept (rewiring sigil / broken circle healing / R-as-sigil); each column is a variant from that concept's prompt. Scale strip below each image previews favicon-to-avatar legibility. Lock winner to <code>final/rewired-logo.jpg</code> after selection.</p>
+</header>
+
+<main>
+
+<section class="concept">
+  <h2 class="concept-heading">Concept A — Rewiring Sigil</h2>
+  <p class="concept-subheading">Rigid circuit trace severed mid-stroke, re-routed into organic root. Ignition Orange ember at the splice. Fusion Gold throughout. The transformation (rigid → alive) is the mark.</p>
+  <div class="variant-grid">
+    <div class="variant">
+      <img src="images/rewiring-sigil-v1.jpg" alt="Rewiring sigil variant 1">
+      <div class="variant-label"><span>v1</span><span class="filename">rewiring-sigil-v1.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/rewiring-sigil-v1.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/rewiring-sigil-v1.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/rewiring-sigil-v1.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+    <div class="variant">
+      <img src="images/rewiring-sigil-v2.jpg" alt="Rewiring sigil variant 2">
+      <div class="variant-label"><span>v2</span><span class="filename">rewiring-sigil-v2.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/rewiring-sigil-v2.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/rewiring-sigil-v2.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/rewiring-sigil-v2.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+    <div class="variant">
+      <img src="images/rewiring-sigil-v3.jpg" alt="Rewiring sigil variant 3">
+      <div class="variant-label"><span>v3</span><span class="filename">rewiring-sigil-v3.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/rewiring-sigil-v3.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/rewiring-sigil-v3.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/rewiring-sigil-v3.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="concept">
+  <h2 class="concept-heading">Concept B — Broken Circle Healing</h2>
+  <p class="concept-subheading">Fusion Gold ring, broken asymmetrically, caught mid-rejoin. Ignition Orange ember at the weld. Echoes F3's broken-circle vocabulary but inverts emotionally — this circle is actively closing, not stuck open.</p>
+  <div class="variant-grid">
+    <div class="variant">
+      <img src="images/broken-circle-healing-v1.jpg" alt="Broken circle healing variant 1">
+      <div class="variant-label"><span>v1</span><span class="filename">broken-circle-healing-v1.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/broken-circle-healing-v1.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/broken-circle-healing-v1.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/broken-circle-healing-v1.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+    <div class="variant">
+      <img src="images/broken-circle-healing-v2.jpg" alt="Broken circle healing variant 2">
+      <div class="variant-label"><span>v2</span><span class="filename">broken-circle-healing-v2.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/broken-circle-healing-v2.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/broken-circle-healing-v2.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/broken-circle-healing-v2.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+    <div class="variant">
+      <img src="images/broken-circle-healing-v3.jpg" alt="Broken circle healing variant 3">
+      <div class="variant-label"><span>v3</span><span class="filename">broken-circle-healing-v3.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/broken-circle-healing-v3.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/broken-circle-healing-v3.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/broken-circle-healing-v3.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="concept">
+  <h2 class="concept-heading">Concept C — R-as-Sigil</h2>
+  <p class="concept-subheading">Cinzel-adjacent capital R as structural spine. Stem descends into living root-filaments; bowl holds an Ignition Orange ember. Reads legibly as "R" at favicon scale, reads as sigil on second look.</p>
+  <div class="variant-grid">
+    <div class="variant">
+      <img src="images/r-as-sigil-v1.jpg" alt="R-as-sigil variant 1">
+      <div class="variant-label"><span>v1</span><span class="filename">r-as-sigil-v1.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/r-as-sigil-v1.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/r-as-sigil-v1.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/r-as-sigil-v1.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+    <div class="variant">
+      <img src="images/r-as-sigil-v2.jpg" alt="R-as-sigil variant 2">
+      <div class="variant-label"><span>v2</span><span class="filename">r-as-sigil-v2.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/r-as-sigil-v2.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/r-as-sigil-v2.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/r-as-sigil-v2.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+    <div class="variant">
+      <img src="images/r-as-sigil-v3.jpg" alt="R-as-sigil variant 3">
+      <div class="variant-label"><span>v3</span><span class="filename">r-as-sigil-v3.jpg</span></div>
+      <div class="scale-row">
+        <div class="scale-box scale-16"><img src="images/r-as-sigil-v3.jpg" alt=""></div>
+        <div class="scale-box scale-32"><img src="images/r-as-sigil-v3.jpg" alt=""></div>
+        <div class="scale-box scale-64"><img src="images/r-as-sigil-v3.jpg" alt=""></div>
+        <span class="scale-label">16 · 32 · 64</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Generate: <code>GEMINI_API_KEY=&hellip; python3 scripts/generate.py</code><br>
+  Re-review: open this file in browser. Idempotent — re-running <code>generate.py</code> skips images already present.<br>
+  Palette: Void Purple <code>#1a0f2e</code> · Fusion Gold <code>#ffb347</code> · Ignition Orange <code>#ff7a18</code> · Solar White <code>#fff4e6</code>
+</footer>
+
+</body>
+</html>
